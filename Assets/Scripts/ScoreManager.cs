@@ -7,10 +7,12 @@ public class ScoreManager : MonoBehaviour
 {
 
     public static int score;
+    public static int oldHighScore;
 
     // Start is called before the first frame update
     void Start()
     {
+        // PlayerPrefs.GetInt('highScore', highScore);
         score = 0;
     }
 
@@ -19,6 +21,14 @@ public class ScoreManager : MonoBehaviour
     {
         GetComponent<UnityEngine.UI.Text>().text = score.ToString();
         // scoreText.text = score.ToString();
+
+        oldHighScore = PlayerPrefs.GetInt("highScore");
+
+        if(score > oldHighScore)
+        {
+            PlayerPrefs.SetInt("highScore", score);
+        }
+
     }
 
 }

@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
     public void replay()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
 }

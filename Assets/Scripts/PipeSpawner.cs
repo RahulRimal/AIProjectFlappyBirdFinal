@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PipeSpawner : MonoBehaviour
 {
-
     public float timeToWait = 0f;
     public float timeWaited = 0f;
     public float heightOffset = 0f;
