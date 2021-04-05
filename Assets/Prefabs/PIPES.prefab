@@ -70,6 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93adac408b3e1594383a8374e2c90c7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinSound: {fileID: 8138327859847928454, guid: b238f7735ae6dee43903d506b42f267f, type: 3}
 --- !u!1 &3633037846252799405
 GameObject:
   m_ObjectHideFlags: 0

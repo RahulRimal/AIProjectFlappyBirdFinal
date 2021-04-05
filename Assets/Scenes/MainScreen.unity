@@ -338,6 +338,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 406625051}
   jumpForce: 2.8
+  waitToRotate: 0.5
+  waitingToRotate: 0
+  turningRate: 500
 --- !u!70 &110732180
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1195,7 +1198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToWait: 1.4
   timeWaited: 0
-  heightOffset: 0.5
+  heightOffset: 0.6
   pipes: {fileID: 7505987506894760276, guid: 3a59705b1cd31b7439a3974358516f55, type: 3}
 --- !u!4 &1697560968
 Transform:
